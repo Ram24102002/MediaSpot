@@ -147,7 +147,7 @@ header pre
     transform: translateY(-15px);
 }
 
-/* input */
+/* ------------------------------------ input ---------------------------------------------- */
 .mid-input
 {
     height: 100%;
@@ -265,6 +265,12 @@ input
 .bot-inp p
 {
     height: -10px;
+}
+
+.d-h-a
+{
+    text-align: center;
+    font-size: 12px;
 }
 
 .so-ic
