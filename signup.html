@@ -27,34 +27,37 @@
 
             <!-- email -->
             
-            <input type="email">
+            <input type="email" placeholder="Email">
 
-            <input type="tel">
+            <input type="tel" placeholder="Phone">
 
 
             <!-- DOB -->
-            <div>
+            <div class="dob">
                 <label for="dob">DOB:  </label><input type="date">
             </div>
             
             <!-- Gender -->
             <div class="gender">
                 <label for="">Gender:</label><br><br>
-                <div>
-                    <label for="male">M </label><input type="radio" name="g">
-                    <label for="female">F </label><input type="radio" name="g">
+                <div class="gender-inner">
+                    <div><label for="male">M </label><input type="radio" name="g"></div>
+                    <div><label for="female">F </label><input type="radio" name="g"></div>
                 </div>
             </div>
 
 
             <!-- password -->
 
-            <input type="password" placeholder="Pas**ord">
+            <input type="password" placeholder="Pas**ord" required>
+            <input type="password" placeholder="confirm Pas**ord" required>
 
 
         </form>
 
-        <footer></footer>
+        <footer>
+            <a href="main-pg.html"><button type="submit">Sign in</button></a>
+        </footer>
     </section>
 
 

@@ -276,7 +276,11 @@ input
 .so-ic
 {
     height: 30px;
-    
+    transition: .5s;
+}
+.so-ic img:hover
+{
+    transform: translateX(10px);
 }
 
 
@@ -313,6 +317,7 @@ input
     {
         height: 35px;
         width: 200px;
+        margin-left: 30px;
     }
 
    
@@ -321,8 +326,13 @@ input
     {
         height: 35px;
         width: 200px;
+        margin-left: 30px;
 
+    }
 
+    .so-ic
+    {
+        height: 25px;
     }
     
 }
