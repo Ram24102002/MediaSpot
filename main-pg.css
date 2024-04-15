@@ -25,7 +25,7 @@ h1
 }
 
 
-/* navbar */
+/* ----------navbar---------- */
 
 .navbar
 {
@@ -106,7 +106,10 @@ textarea
     margin-bottom: -3px;
 }
 
-/* sidebar */
+
+
+
+/* ----------sidebar---------- */
 
 
 
@@ -186,7 +189,9 @@ span
     bottom: 50px;
 }
 
-/* main */
+
+
+/* -------------main----------------- */
 
 
 .sidebar--aside
@@ -291,20 +296,20 @@ span
     {
         flex-direction: column;
         margin-right: 0px;
-        width: 87%;
+        width: 90%;
         margin-top: 40px;
     }
 
 
     .music-aside, .movie-aside
 {
-    width: 80%;
+    width: 100%;
     transition: 1s;
     margin-top: 0;
 }
 .music-aside:hover, .movie-aside:hover
 {
-    width: 70%;
+    width: 110%;
 }
 
 .m-a-i
@@ -314,6 +319,7 @@ span
 
 .m-a-i,.m-a-t
 {
+    
     height: 50%;
     width: 50%;
 }
