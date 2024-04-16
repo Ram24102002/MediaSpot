@@ -292,6 +292,10 @@ footer a:hover
     font-weight: 800;
 }
 
+footer li
+{
+    width: 50px;
+}
 
 .bottom-pg
 {
@@ -312,6 +316,10 @@ footer a:hover
 
 @media all and (max-width:1000px)
 {
+    .tag-p
+    {
+        font-size: 10px;
+    }
 
     .main-body
     {
