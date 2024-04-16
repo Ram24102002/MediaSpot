@@ -49,14 +49,14 @@
 
             <!-- password -->
 
-            <input type="password" placeholder="Pas**ord" required>
-            <input type="password" placeholder="confirm Pas**ord" required>
+            <input id="password" type="password" placeholder="Pas**ord" value="password" required>
+            <input id="corr-password" type="password" placeholder="confirm Pas**ord" value="password" required>
 
 
         </form>
 
         <footer>
-            <a href="main-pg.html"><button type="submit">Sign in</button></a>
+            <button onclick="passwordVerify()" type="submit">Sign in</button>
         </footer>
     </section>
 

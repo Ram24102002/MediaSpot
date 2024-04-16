@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: black;
+
 }
 
 a
@@ -39,7 +40,7 @@ body
 
 .main-body
 {
-    height: 5500px;
+    height: 4700px;
     width: 100%;
 }
 
@@ -144,6 +145,8 @@ body
     color: white;
     /* color: black; */
     transition: 1s;
+    border: none;
+    box-shadow: gray 0px 0px 40px 0px ;
 }
 
 .card:hover
@@ -219,24 +222,50 @@ body
     
 }
 
-.form-as button
-{
-    height: 50px;
-    margin-top: 30px;
-    margin-right: 50px;
-    transition: 1s;
-}
+
 
 
 .as-1
 {
+    height: 100%;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as-1 img
+{
+    width: 80%;
 }
 
 .as-2
 {
+    padding: 100px;
+    width: 50%;
+    height: 100%;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input
+{
+    margin: 10px;
+    height: 30px;
+    border: black solid 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.radio
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    font-size: 6px;
 }
 
 
@@ -246,9 +275,8 @@ footer
     height: 550px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     /* background-color: rgb(158, 205, 205); */
-    
 }
 
 footer a
@@ -265,9 +293,31 @@ footer a:hover
 }
 
 
+.bottom-pg
+{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-pg img
+{
+    height: 60px;
+}
+
+
 
 @media all and (max-width:1000px)
 {
+
+    .main-body
+    {
+        height: 5700px;
+    }
+
     .carousel-header
     {
         height: 300px;
@@ -280,9 +330,63 @@ footer a:hover
     }
 
 
+    /* ----wider card---- */
+
+
+    .wide-card-section
+    {
+        height: 1000px;
+    }
+
+    #wide-card
+    {
+        height: 380px;
+        width: 130px;
+    }
+
+    #wide-card img
+    {
+        height: 165px;
+        width: 130px;
+    }
+
+
+
+    .top-rec
+    {
+        height: 600px;
+    }
+
     .card
     {
-        height: 10rem;
-    width: 17rem;
+        height: 13rem;
+        width: 10rem;
+    }
+
+    .card-img-top
+    {
+        height: 6rem;
+        width: 10rem;
+    }
+    .card-text
+    {
+        font-size: 10px;
+    }
+    .card-title
+    {
+        font-size: 12px;
+    }
+
+    .btn
+    {
+        height: 30px;
+        width: 70px;
+        font-size: 10px;
+        padding: 5px;
+    }
+        
+    .bottom-pg img
+    {
+        height: 30px;
     }
 }
