@@ -158,6 +158,16 @@ header pre
     position: absolute;
 }
 
+.fa-eye-slash
+{
+    margin-bottom: -3px;
+    margin-left: -27px;
+    /* z-index: 1; */
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
 .bottom-pre
 {
     height: 100%;

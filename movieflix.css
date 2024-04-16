@@ -323,7 +323,7 @@ footer li
 
     .main-body
     {
-        height: 5700px;
+        height: 5650px;
     }
 
     .carousel-header
@@ -344,6 +344,7 @@ footer li
     .wide-card-section
     {
         height: 1000px;
+        margin-bottom: 100px;
     }
 
     #wide-card
@@ -396,5 +397,15 @@ footer li
     .bottom-pg img
     {
         height: 30px;
+    }
+    footer
+    {
+        font-size: 10px;
+        height: 400px;
+    }
+
+    footer a
+    {
+        font-size: 10px;
     }
 }
