@@ -32,6 +32,7 @@ h1
     position: absolute;
     width: 100%;
     box-shadow: black 0px 0px 10px 0px ;
+    transition: 1s;
 }
 
 .navbar-toggler
@@ -106,7 +107,47 @@ textarea
     margin-bottom: -3px;
 }
 
+#offcanvasBottom
+{
+    height: 80dvh;
+    width: 100%;
+    transition: 1s;
+    font-family: "Roboto", sans-serif;
+}
 
+.small
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-off-as
+{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    box-shadow: gray 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-off-as div
+{
+    height: 18%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-off-as img
+{
+    height: 100%;
+}
 
 
 /* ----------sidebar---------- */

@@ -3,7 +3,7 @@ var pass=document.getElementById("password");
 var sub=document.getElementById("sub-btn");
 
 
-var email="user";
+var email="User";
 var password="password";
 
 

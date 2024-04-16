@@ -11,7 +11,6 @@
 
 
 
-
     <!-- ===== Fonts ===== -->
 
     <!-- roboto -->
@@ -53,38 +52,32 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a href="" class="nav-link text-decoration-underline" style="opacity: 0.8;">About Me</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Social Media
-            </a>
-            <ul class="dropdown-menu text-bg-dark border-light p-3">
-              <li><a href="#sociallinks" class="dropdown-item text-warning">Contact Section</a></li>
-              <li><hr class="dropdown-divider-light"></li>
-              <li><hr class="dropdown-divider-light"></li>
-              <li><a class="dropdown-item text-danger" href="tel: 917305790119">Contact Number</a></li>
-              <li><a class="dropdown-item text-danger" href="mailto:ramachandran24102002@gmail.com" id="copyButton">Mail ID</a></li>
-              <li><hr class="dropdown-divider-light"></li>
-              <li><a class="dropdown-item text-danger" href="https://www.instagram.com/lucifer_morning_star__24/">Instagram</a></li>
-              <li><a class="dropdown-item text-danger" href="https://www.facebook.com/ramachandran.a.714">Facebook</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link"></a>
-          </li>
-          </ul>
+        
+          
+        
+        
+          
+          
           <ul class="navbar-nav ms-auto">
+            
+            <!-- profile offcanva -->
             <li class="profile-svg-li">
-              <img src="src/src-img/Animation - 1712460555820.gif" class="profile-svg" alt="">
+              <img src="src/src-img/Animation - 1712460555820.gif" class="profile-svg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasWithBothOptions">
+            </li>
+
+            
+            
+
+
+
+            <li class="nav-item ms-auto">
+              <a href="" class="nav-link text-decoration-underline" style="opacity: 0.8;">About Me</a>
             </li>
           <li class="nav-item">
             <a href="" class="nav-link text-dark active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="setting" ><i class="fa-solid setting fa-gear"></i></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-danger active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" >Help</a>
+            <a href="" class="nav-link text-danger active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptionss" aria-controls="offcanvasWithBothOptions" id="help" >Help</a>
           </li>
         </ul>
         
@@ -97,11 +90,39 @@
   </nav>
 
 
+
+<!-- -- Profile -- -->
+
+
+<div class="offcanvas offcanvas-top offcanvas-size-xl " tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Profile Section...</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    
+
+      <aside class="main-off-as">
+          <div><img src="src/src-img/Animation - 1712460555820.gif" alt=""></div>
+          <div style="display: block; text-align: center;">
+            <Label><b>Name:</b> User</Label>
+            <Label><b>Email:</b> mailID@google.com</Label>
+            <Label><b>Subscription:</b> 1 Year</Label>
+          </div>
+          <div> <a href="index.html"><button class="btn btn-danger">Logout</button></a></div>
+      </aside>
+
+
+  </div>
+</div>
+
+
+
   
 <!-- Help -->
 
  
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+<div class="offcanvas offcanvas-start offcanvas-size-xl" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptionss" aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header bg-light">
       <h2 class="offcanvas-title text-dark" id="offcanvasWithBothOptionsLabel">Support</h2>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -177,13 +198,13 @@
                     </div>
                     <ul class="sidebar-nav">
                         <li class="sidebar-item">
-                            <a href="" class="sidebar-link">
+                            <a href="" class="sidebar-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasWithBothOptions">
                                 <i class="lni lni-user"></i>
                                 <span>Profile</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="" class="sidebar-link">
+                            <a href="" class="sidebar-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasWithBothOptions">
                                 <i class="lni lni-agenda"></i>
                                 <span>Account</span>
                             </a>
@@ -198,12 +219,12 @@
                                     <a href="index.html" class="sidebar-link">Login</a>
                                 </li>
                                 <li class="sidebar-item">
-                                    <a href="" class="sidebar-link">Sign In</a>
+                                    <a href="signup.html" class="sidebar-link">Sign In</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="sidebar-item">
-                            <a href="" class="sidebar-link">
+                            <a class="sidebar-link" onclick="notification()">
                                 <i class="lni lni-popup"></i>
                                 <span>Notification</span>
                             </a>
