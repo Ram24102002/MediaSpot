@@ -76,7 +76,7 @@ body
 }
 
 
-#wide-card
+#wide-card1,#wide-card2,#wide-card3,#wide-card4,#wide-card5,#wide-card6
 {
     height: 200px;
     width: 400px;
@@ -88,7 +88,7 @@ body
     /* transform: translateY(-20px); */
 }
 
-#wide-card img
+#wide-card1 img,#wide-card2 img,#wide-card3 img,#wide-card4 img,#wide-card5 img,#wide-card6 img
 {
     height: 199px;
     width: 200px;
