@@ -59,6 +59,17 @@ h1
     color: gray;
 }
 
+.about-p
+{
+    font-size: 10px;
+}
+
+
+.lni-popup2
+{
+    font-size: x-large;   
+}
+
 .profile-svg
 {
     height: 40px;
@@ -201,6 +212,7 @@ textarea
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 
 
 
